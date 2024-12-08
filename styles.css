@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Google Font for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif; /* Bold font for headings */
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    color: black; /* Softer text color for paragraphs */
+    line-height: 1.6;
+}
+
+/* Typography and Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap');
+
+/* Layout Styles */
+header {
+    background-color: tan;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #555; /* Dark button background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #777; /* Lighter hover effect */
+}
+
+/* Button Styles */
+button, .button {
+    padding: 10px 20px;
+    background-color: #333; /* Dark button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #555; /* Hover effect for buttons */
+}
+
+/* Homepage Styles */
+main p {
+    margin-top: 20px;
+}
+
+/* Charities List Page */
+.charity {
+    display: flex;
+    justify-content: space-between; /* Align charity info and image side by side */
+    align-items: center;
+    background-color: white; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+}
+
+.charity img {
+    width: 100px; /* Placeholder size for charity images */
+}
+
+.charity-info {
+    flex-grow: 1; /* Allow charity info to take up available space */
+}
+
+.charity-info h2 {
+    margin-bottom: 10px; 
+}
+
+/* Charity Profile Page */
+img {
+    width: 300px; /* Placeholder size for profile image */
+}
+
+#volunteerButton {
+    margin-top: 20px; 
+}
+
+form {
+    margin-top: 20px; 
+}
+
+/* Form Styling */
+input[type="email"] {
+   padding: 10px;
+   width: calc(100% - 22px);
+   border-radius: 5px;
+   border: solid 1px #ccc;
+   font-size: 1em;
+   margin-top: 10px;
+}
+
+input[type="submit"] {
+   font-size: inherit;
+   padding-left :15 px
+}
+
+/* Accessibility Enhancements */
+
+/* Focus States for Interactive Elements (for keyboard navigation) */
+a, button, input[type="email"], input[type="submit"] {
+   outline-color:#ffcc00 ;/*high contrast*/
+}
+
+/* News Section */
+#newsContainer {
+    margin-top: 20px;
+}
+
+.news-article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    font-size: 1em;
+    color: #555;
+}
+
+.news-article a {
+    color: #007BFF;
+}
